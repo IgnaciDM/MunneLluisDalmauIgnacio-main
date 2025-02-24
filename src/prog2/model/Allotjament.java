@@ -60,4 +60,4 @@ public abstract class Allotjament implements InAllotjament {
                 ", estadaMinimaBaixa=" + estadaMinimaBaixa +
                 '}';
     }
-}
+}//Esto es una prueba
