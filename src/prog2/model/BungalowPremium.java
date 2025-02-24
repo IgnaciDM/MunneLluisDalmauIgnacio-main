@@ -110,13 +110,13 @@ public class BungalowPremium {
         this.serveisExtra = serveisExtra;
     }
 
-    public string iscodiWifi() {
-        return codiWifi;
-    }
+    //public string iscodiWifi() {
+        //return codiWifi;
+    //}
 
-    public void setCodiWifi(string codiWifi) {
-        this.codiWifi = codiWifi;
-    }
+    //public void setCodiWifi(string codiWifi) {
+        //this.codiWifi = codiWifi;
+    //}
 
     // Método toString para imprimir el objeto en formato legible
     @Override
