@@ -1,9 +1,5 @@
 
-package prog2.vista;
-
-import prog2.model.InCamping;
-
-import prog2.model.ExcepcioReserva;
+package prog2.model;
 
 /**
  * Classe per gestionar els allotjaments del Càmping del Mar.
@@ -14,7 +10,7 @@ public class GestorCamping {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExcepcioReserva {
 
         Camping campingMar = new Camping("Camping del Mar");
 
@@ -47,7 +43,7 @@ public class GestorCamping {
      * Mètode de classe per afegir parcel·les, bungalows, bungalows premium, glampings, mobil-home i clients al càmping.
      * @param camping L'objecte de tipus Camping que anem a omplir
      */
-    private static void omplirDadesModel(Camping camping){
+    private static void omplirDadesModel(Camping camping) throws ExcepcioReserva {
         
         
         // Afegir parcel·les:

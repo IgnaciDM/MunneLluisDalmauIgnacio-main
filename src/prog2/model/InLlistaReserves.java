@@ -1,7 +1,7 @@
 
 package prog2.model;
 
-import com.sun.security.ntlm.Client;
+
 
 import java.time.LocalDate;
 

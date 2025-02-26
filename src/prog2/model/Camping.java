@@ -1,15 +1,18 @@
 package prog2.model;
 
-import com.sun.security.ntlm.Client;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+
 
 public class Camping implements InCamping {
     private String nom;
     private ArrayList<Allotjament> llistaAllotjaments = new ArrayList<Allotjament>();
     private ArrayList<Client> llistaClients = new ArrayList<>();
     private ArrayList<Reserves> llistaReserves = new ArrayList<>();
+
+    public Camping(String campingDelMar) {
+    }
 
     @Override
     public String getNom() {
@@ -47,10 +50,10 @@ public class Camping implements InCamping {
     };
 
     @Override
-    public void afegirClient(String nom_, String dni_) throws ExcepcioReserva {
-        ArrayList<Client> ClientN = new ArrayList<>();
-        //ClientN.add(new Client(nom_,dni_));
-        //llistaClients.add(ClientN);
+    public void afegirClient(String nom_, String dni_) throws ExcepcioReserva {//IMPLEMENTA LA CLASE CLIENT
+        Client client = new Client(nom_, dni_);
+        llistaClients.add(client);
+
 
         System.out.println("Client afegit: " + nom_ + " amb DNI " + dni_);
     }
