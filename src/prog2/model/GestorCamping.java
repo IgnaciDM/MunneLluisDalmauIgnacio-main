@@ -192,6 +192,7 @@ public class GestorCamping {
         // Crear una LocalDate per definir la data de la reserva.
         // Per completar
 
+
         // Intentar afegir la reserva amb la informació indicada i si no és possible mostrar el missatge d'error.
         // Per completar
         
