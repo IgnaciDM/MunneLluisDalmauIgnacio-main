@@ -12,7 +12,7 @@ impressions per pantalla amb la informació de la classe.
  */
 
 public class Client {//CLIENT FET
-    private String nom;
+    private String nom;//HOLA
     private String dni;
 
     public Client(String nom, String dni) throws ExcepcioReserva {
