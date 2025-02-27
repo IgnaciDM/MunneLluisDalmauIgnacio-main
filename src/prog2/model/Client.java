@@ -30,7 +30,7 @@ public class Client {//CLIENT FET
 
     public String getDni() {
         return dni;
-    }
+    }//
 
     public void setDni(String dni) throws ExcepcioReserva {
         if (dni == null || dni.length() != 9) {
